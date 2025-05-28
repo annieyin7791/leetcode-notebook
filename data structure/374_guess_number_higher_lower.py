@@ -1,3 +1,5 @@
+# Binary Search Algorithm
+
 # Every time I guess mid point (m), then submit to API
 # If m > answer -> guess(m) = -1 -> means the answer is in the left side of the array -> reduce the right boundary to m - 1
 # If m < answer -> guess(m) = 1
