@@ -1,5 +1,10 @@
 # Binary Search Algorithm
 
+# The guess API is already defined for you.
+# @param num, your guess
+# @return -1 if num is higher than the picked number
+#          1 if num is lower than the picked number
+
 # Every time I guess mid point (m), then submit to API
 # If m > answer -> guess(m) = -1 -> means the answer is in the left side of the array -> reduce the right boundary to m - 1
 # If m < answer -> guess(m) = 1
